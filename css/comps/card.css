@@ -5,6 +5,7 @@
     padding: 30px;
     border-radius: 15px;
     text-align: center;
+    position: relative;
 }
 
 #advice-id {
@@ -23,5 +24,24 @@
 }
 
 button {
-    margin-bottom: -3rem;
+    /* margin-bottom: -3rem; */
+    position: absolute;
+    bottom: -32px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--Green300);
+    background-color: var(--Green300);
+    border: none;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.3s ease;
+}
+
+button:hover {
+    box-shadow: 0 0px 15px rgba(49, 248, 4, 0.8);
 }
