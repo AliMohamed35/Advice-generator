@@ -1,0 +1,5 @@
+.card {
+    max-width: 370px;
+    background-color: var(--Blue900);
+    padding: 30px;
+}

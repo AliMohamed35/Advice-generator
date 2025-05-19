@@ -1,0 +1,20 @@
+@import url('comps/card.css');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Manrope", sans-serif; */
+
+:root {
+    --Blue200: hsl(193, 38%, 86%);
+    --Green300: hsl(150, 100%, 66%);
+    --Blue600: hsl(217, 19%, 38%);
+    --Blue900: hsl(217, 19%, 24%);
+    --Blue950: hsl(218, 23%, 16%);
+}
+
+body {
+    background-color: var(--Blue950);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
