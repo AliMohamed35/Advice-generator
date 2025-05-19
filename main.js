@@ -18,8 +18,8 @@ async function fetchAdvices() {
 function generateAdvice(data) {
     let advice = document.getElementById('advice');
     let advice_id = document.getElementById('advice-id');
-    advice.innerHTML = data.slip.advice;
-    advice_id.innerHTML = data.slip.id;
+    advice.innerHTML = `"${data.slip.advice}"`;
+    advice_id.innerHTML = `ADVICE #${data.slip.id}`;
 }
 
 fetchAdvices();

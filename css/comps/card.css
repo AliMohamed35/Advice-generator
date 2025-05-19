@@ -1,5 +1,27 @@
 .card {
-    max-width: 370px;
+    font-family: "Manrope", sans-serif;
+    max-width: 500px;
     background-color: var(--Blue900);
     padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#advice-id {
+    color: var(--Green300);
+    font-size: .8rem;
+    letter-spacing: 2px;
+}
+
+#advice {
+    width: 100%;
+    color: var(--Blue200);
+}
+
+.divider {
+    margin-bottom: 1rem;
+}
+
+button {
+    margin-bottom: -3rem;
 }
