@@ -45,3 +45,13 @@ button {
 button:hover {
     box-shadow: 0 0px 15px rgba(49, 248, 4, 0.8);
 }
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 300px;
+    }
+
+    .divider svg {
+        width: 100% !important;
+    }
+}
